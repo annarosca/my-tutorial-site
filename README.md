@@ -8,5 +8,5 @@
   Jane Doe's Dev Blog with GatsbyJS
 </h1>
 
-This is an example personal website for a web developer named Jane Doe. It was bootstrapped with Gatsby's official blog starter. You can follow along with the written ([guide on my own website!] (https://annarossetti.com/articles/how-to-make-a-website))
+This is an example personal website for a web developer named Jane Doe. It was bootstrapped with Gatsby's official blog starter. You can follow along with the written [guide on my own website!](https://annarossetti.com/articles/how-to-make-a-website)
 <!-- AUTO-GENERATED-CONTENT:END -->
