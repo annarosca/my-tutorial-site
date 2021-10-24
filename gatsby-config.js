@@ -105,6 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "Jane Doe RSS Feed",
           },
         ],
       },
