@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "janedoe-netlify-app",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A demo blog with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Anna Rossetti <hi@annarossetti.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/rossettiquette//issues"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
