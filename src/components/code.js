@@ -33,7 +33,7 @@ const Code = props => {
   const className = props.children.props.className || ""
   const code = props.children.props.children.trim()
   const language = className.replace(/language-/, "")
-  const title = props.children.props.title
+  const file = props.children.props.file
   const highlights = calculateLinesToHighlight(
     props.children.props.highlights || ""
   )
@@ -76,14 +76,14 @@ const Code = props => {
             alignItems: "center",
           }}
         >
-          {title && `${title}`}
+          {file && `${file}`}
         </div>
         <div style={{ flexGrow: "1" }}></div>
         <button
           onClick={() => {
             copyToClipboard(code)
             setIsCopied(true)
-            setTimeout(() => setIsCopied(false), 3000)
+            setTimeout(() => setIsCopied(false), 1000)
           }}
           style={{
             marginRight: "1.5rem",
